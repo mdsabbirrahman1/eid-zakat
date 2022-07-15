@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-bar {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    background-image:
+        linear-gradient(to left, rgba(19, 43, 175, 0.747), rgba(31, 34, 32, 0.938)),
+        url('donation7.jpg');
+
+}
+
+.top-bar {
+    width: 500px;
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.para {
+    font-size: 20px;
+    padding: 20px 0;
+    color: #ddd;
+}
+
+.my-btn {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #ffab48;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
+
+.para-one {
+    color: #25272d;
+}
+
+.first-blog {
+    width: 400px;
+    background-color: #fff7f7;
+    border-radius: 5px;
+    padding: 10px 30px;
+    display: flex;
+}
+
+.img {
+    padding: 20px 15px;
+
+}
+
+.direct-one {
+    font-size: 20px;
+    color: #626775;
+}
+
+.all-blog {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    justify-content: center;
+}
+
+.img-tow {
+
+    width: 350px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.donate {
+    width: 350px;
+    height: 450px;
+    border: 1px solid #ddd;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.text {
+    padding-left: 10px;
+}
+
+#para {
+    font-size: 20px;
+    color: rgb(105, 102, 102);
+}
+
+.my-btn-two {
+    font-size: 20px;
+    color: red;
+}
+
+#three-blog {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-column-gap: 25px;
+
+
+}
